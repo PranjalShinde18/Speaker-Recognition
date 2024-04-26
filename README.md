@@ -4,6 +4,11 @@ The Speaker Recognition Project is an implementation of speaker identification a
 
 ## Features
 
+- **Data Preparation:**
+  - Collect a labeled dataset of audio samples from various speakers(In .wav format).
+  - Preprocess the audio data (e.g., resampling, normalization).
+  - Split the dataset into training and validation sets.
+
 - **Speaker Identification:**
   - Train a neural network to recognize different speakers based on their voice.
   - Extract relevant features from audio samples using Librosa.
@@ -13,11 +18,6 @@ The Speaker Recognition Project is an implementation of speaker identification a
   - Verify whether a given voice sample belongs to a specific speaker.
   - Compare the extracted features of the test sample with the reference speaker's features.
   - Use similarity metrics (e.g., cosine similarity) to determine if the voice matches.
-
-- **Data Preparation:**
-  - Collect a labeled dataset of audio samples from various speakers(In .wav format).
-  - Preprocess the audio data (e.g., resampling, normalization).
-  - Split the dataset into training and validation sets.
 
 ## Dependencies
 
